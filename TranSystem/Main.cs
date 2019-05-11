@@ -63,5 +63,19 @@ namespace TranSystem
         {
 
         }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            FormSuporte FormSuporte = new FormSuporte();
+            FormSuporte.Show();
+            this.Hide();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            GerenciarPedidos GerenciarPedidos = new GerenciarPedidos();
+            GerenciarPedidos.Show();
+            this.Hide();
+        }
     }
 }

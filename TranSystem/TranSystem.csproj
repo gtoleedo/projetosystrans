@@ -51,6 +51,12 @@
     <Compile Include="CadastrarCliente.Designer.cs">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSuporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuporte.Designer.cs">
+      <DependentUpon>FormSuporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="GerenciarPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     </Compile>
     <EmbeddedResource Include="CadastrarCliente.resx">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuporte.resx">
+      <DependentUpon>FormSuporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GerenciarPedidos.resx">
       <DependentUpon>GerenciarPedidos.cs</DependentUpon>

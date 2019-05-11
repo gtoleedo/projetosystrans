@@ -16,5 +16,22 @@ namespace TranSystem
         {
             InitializeComponent();
         }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            Main Main = new Main();
+            Main.Show();
+            this.Hide();
+        }
     }
 }

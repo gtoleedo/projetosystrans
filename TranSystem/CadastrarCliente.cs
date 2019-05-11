@@ -76,5 +76,12 @@ namespace TranSystem
         {
 
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            Main Main = new Main();
+            Main.Show();
+            this.Hide();
+        }
     }
 }

@@ -30,8 +30,6 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -43,6 +41,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.CloseButton = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -72,30 +72,6 @@
             this.label2.Size = new System.Drawing.Size(155, 16);
             this.label2.TabIndex = 22;
             this.label2.Text = "@NAME LASTNAME . . .";
-            // 
-            // panel8
-            // 
-            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(76)))), ((int)(((byte)(61)))));
-            this.panel8.BackgroundImage = global::TranSystem.Properties.Resources.Untitled_1_copy;
-            this.panel8.Location = new System.Drawing.Point(108, 373);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(434, 111);
-            this.panel8.TabIndex = 29;
-            // 
-            // panel9
-            // 
-            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(58)))), ((int)(((byte)(125)))));
-            this.panel9.BackgroundImage = global::TranSystem.Properties.Resources.Untitled_1_copy1;
-            this.panel9.Location = new System.Drawing.Point(550, 373);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(188, 111);
-            this.panel9.TabIndex = 29;
             // 
             // button1
             // 
@@ -230,6 +206,37 @@
             this.button3.TabIndex = 33;
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.button4.BackgroundImage = global::TranSystem.Properties.Resources.Untitled_1_copy;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial Narrow", 54.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(108, 373);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(434, 111);
+            this.button4.TabIndex = 34;
+            this.button4.Text = " ";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(124)))), ((int)(((byte)(15)))));
+            this.button5.BackgroundImage = global::TranSystem.Properties.Resources.Untitled_1_copy1;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(550, 373);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(188, 111);
+            this.button5.TabIndex = 35;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,12 +244,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(39)))), ((int)(((byte)(54)))));
             this.BackgroundImage = global::TranSystem.Properties.Resources.Sem_Título_1_copiar;
             this.ClientSize = new System.Drawing.Size(957, 621);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -265,8 +272,6 @@
         #endregion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button2;
@@ -278,5 +283,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label CloseButton;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

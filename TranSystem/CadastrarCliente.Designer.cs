@@ -30,6 +30,7 @@
         {
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseButton = new System.Windows.Forms.Label();
@@ -68,6 +69,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.registerButton = new System.Windows.Forms.Button();
+            this.loginButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -84,6 +86,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(27)))), ((int)(((byte)(34)))));
+            this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.CloseButton);
@@ -92,6 +95,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(731, 49);
             this.panel1.TabIndex = 34;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(278, 16);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(126, 16);
+            this.label18.TabIndex = 75;
+            this.label18.Text = "Cadastro de Cliente";
             // 
             // pictureBox1
             // 
@@ -581,18 +596,34 @@
             // 
             // registerButton
             // 
+            this.registerButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.registerButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(128)))), ((int)(((byte)(113)))));
             this.registerButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.registerButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.registerButton.FlatAppearance.BorderSize = 0;
             this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerButton.ForeColor = System.Drawing.Color.White;
-            this.registerButton.Location = new System.Drawing.Point(5, 493);
+            this.registerButton.Location = new System.Drawing.Point(359, 493);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(731, 41);
+            this.registerButton.Size = new System.Drawing.Size(377, 41);
             this.registerButton.TabIndex = 74;
             this.registerButton.Text = "Cadastrar";
             this.registerButton.UseVisualStyleBackColor = false;
+            // 
+            // loginButton
+            // 
+            this.loginButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.loginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(27)))), ((int)(((byte)(34)))));
+            this.loginButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loginButton.FlatAppearance.BorderSize = 0;
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginButton.ForeColor = System.Drawing.Color.White;
+            this.loginButton.Location = new System.Drawing.Point(3, 493);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(357, 43);
+            this.loginButton.TabIndex = 75;
+            this.loginButton.Text = "VOLTAR";
+            this.loginButton.UseVisualStyleBackColor = false;
+            this.loginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // CadastrarCliente
             // 
@@ -600,6 +631,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(39)))), ((int)(((byte)(54)))));
             this.ClientSize = new System.Drawing.Size(741, 539);
+            this.Controls.Add(this.loginButton);
             this.Controls.Add(this.registerButton);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.textBox15);
@@ -691,5 +723,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Button registerButton;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button loginButton;
     }
 }
