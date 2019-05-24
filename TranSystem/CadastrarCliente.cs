@@ -76,5 +76,22 @@ namespace TranSystem
         {
 
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            Main Main = new Main();
+            Main.Show();
+            this.Hide();
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

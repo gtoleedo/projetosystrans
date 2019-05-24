@@ -45,11 +45,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdicionarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarPedido.Designer.cs">
+      <DependentUpon>AdicionarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdicionarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarVeiculo.Designer.cs">
+      <DependentUpon>AdicionarVeiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastrarCliente.Designer.cs">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroMotorista.Designer.cs">
+      <DependentUpon>CadastroMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroVeiculo.Designer.cs">
+      <DependentUpon>CadastroVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdicionarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarMotorista.Designer.cs">
+      <DependentUpon>AdicionarMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuporte.Designer.cs">
+      <DependentUpon>FormSuporte.cs</DependentUpon>
     </Compile>
     <Compile Include="GerenciarPedidos.cs">
       <SubType>Form</SubType>
@@ -77,8 +113,26 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdicionarMotorista.resx">
+      <DependentUpon>AdicionarMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarPedido.resx">
+      <DependentUpon>AdicionarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarVeiculo.resx">
+      <DependentUpon>AdicionarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastrarCliente.resx">
       <DependentUpon>CadastrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroMotorista.resx">
+      <DependentUpon>CadastroMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroVeiculo.resx">
+      <DependentUpon>CadastroVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuporte.resx">
+      <DependentUpon>FormSuporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GerenciarPedidos.resx">
       <DependentUpon>GerenciarPedidos.cs</DependentUpon>
