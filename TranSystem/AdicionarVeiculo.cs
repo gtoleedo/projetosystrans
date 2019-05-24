@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace TranSystem
 {
-    public partial class Register : Form
+    public partial class AdicionarVeiculo : Form
     {
-        public Register()
+        public AdicionarVeiculo()
         {
             InitializeComponent();
         }
 
-        private void loginButton_Click(object sender, EventArgs e)
+        private void RegisterButton_Click(object sender, EventArgs e)
         {
-            Login Login = new Login();
-            Login.Show();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            CadastroMotorista CadastroMotorista = new CadastroMotorista();
+            CadastroMotorista.Show();
             this.Hide();
         }
     }

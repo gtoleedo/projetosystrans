@@ -77,5 +77,22 @@ namespace TranSystem
             GerenciarPedidos.Show();
             this.Hide();
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            CadastroMotorista CadastroMotorista = new CadastroMotorista();
+            CadastroMotorista.Show();
+            this.Hide();
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

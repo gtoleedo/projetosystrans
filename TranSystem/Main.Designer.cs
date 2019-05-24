@@ -178,6 +178,7 @@
             this.label1.Size = new System.Drawing.Size(20, 24);
             this.label1.TabIndex = 5;
             this.label1.Text = "_";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // CloseButton
             // 
@@ -191,6 +192,7 @@
             this.CloseButton.Size = new System.Drawing.Size(24, 24);
             this.CloseButton.TabIndex = 4;
             this.CloseButton.Text = "X";
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // button3
             // 
@@ -205,6 +207,7 @@
             this.button3.Size = new System.Drawing.Size(96, 302);
             this.button3.TabIndex = 33;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // button4
             // 
@@ -218,7 +221,6 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(434, 111);
             this.button4.TabIndex = 34;
-            this.button4.Text = " ";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 

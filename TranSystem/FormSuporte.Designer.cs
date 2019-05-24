@@ -93,6 +93,7 @@
             this.label1.Size = new System.Drawing.Size(20, 24);
             this.label1.TabIndex = 5;
             this.label1.Text = "_";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // CloseButton
             // 
@@ -106,6 +107,7 @@
             this.CloseButton.Size = new System.Drawing.Size(24, 24);
             this.CloseButton.TabIndex = 4;
             this.CloseButton.Text = "X";
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // panel2
             // 
@@ -197,7 +199,7 @@
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(214, 40);
             this.loginButton.TabIndex = 47;
-            this.loginButton.Text = "VOLTAR";
+            this.loginButton.Text = "Voltar";
             this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
@@ -214,7 +216,7 @@
             this.registerButton.Name = "registerButton";
             this.registerButton.Size = new System.Drawing.Size(193, 40);
             this.registerButton.TabIndex = 46;
-            this.registerButton.Text = "ENVIAR";
+            this.registerButton.Text = "Enviar";
             this.registerButton.UseVisualStyleBackColor = false;
             this.registerButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
