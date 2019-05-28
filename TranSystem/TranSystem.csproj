@@ -81,6 +81,7 @@
     <Compile Include="AdicionarMotorista.Designer.cs">
       <DependentUpon>AdicionarMotorista.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="FormSuporte.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +114,8 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registrar.cs" />
+    <Compile Include="ValidarLogin.cs" />
     <EmbeddedResource Include="AdicionarMotorista.resx">
       <DependentUpon>AdicionarMotorista.cs</DependentUpon>
     </EmbeddedResource>
